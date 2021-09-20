@@ -1,0 +1,5 @@
+id|name|phone|address
+1|Arjun|9863482273|Kathmandu
+2|Sita|9871231312|Bhaktapur
+3|Pooja|9873482234|Butwal
+4|Ram|987123134|Chitwan
