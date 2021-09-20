@@ -1,0 +1,5 @@
+name|gender
+Arjun|M
+Pooja|F
+Jina|F
+Mina|F
