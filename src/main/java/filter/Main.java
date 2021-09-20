@@ -1,4 +1,4 @@
-package genderfilter;
+package filter;
 
 import cascading.flow.Flow;
 import cascading.flow.FlowDef;
@@ -9,14 +9,13 @@ import cascading.scheme.local.TextDelimited;
 import cascading.tap.SinkMode;
 import cascading.tap.Tap;
 import cascading.tap.local.FileTap;
-import filter.GenderFilter;
 
-public class Filter {
+public class Main {
     public static void main(String[] args) {
 //        1.Define source tap and sink tap
 
-        String sourcePath = "src/main/resources/filter_source.txt";
-        String sinkPath = "src/main/resources/filter_sink.txt";
+        String sourcePath = "src/main/resources/filter/filter_source.txt";
+        String sinkPath = "src/main/resources/filter/filter_sink.txt";
 
         Tap sourceTap = new FileTap(new TextDelimited(true, ";"), sourcePath);
         Tap sinkTap = new FileTap(new TextDelimited(true, "|"), sinkPath, SinkMode.REPLACE);
