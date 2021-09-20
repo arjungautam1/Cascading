@@ -1,0 +1,6 @@
+id;address
+1;Kathmandu
+2;Bhaktapur
+3;Butwal
+4;Chitwan
+5;Hetauda
