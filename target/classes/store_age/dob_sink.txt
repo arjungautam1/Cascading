@@ -1,0 +1,4 @@
+name|dob|age
+Arjun,Gautam|1999-11-04|22
+Pooja|2000-1-12|21
+Sita|1995-02-12|26
