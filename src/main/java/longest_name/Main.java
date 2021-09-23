@@ -49,7 +49,7 @@ public class Main {
         Flow flow=new LocalFlowConnector().connect(flowDef);
         flow.complete();
 
-        System.out.println("Process completed. \n Please vist :\n"+sinkPath);
+        System.out.println("Process completed. \n Please visit :\n"+sinkPath);
 
 
     }
