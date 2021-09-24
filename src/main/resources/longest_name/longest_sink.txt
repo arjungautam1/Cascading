@@ -1,3 +1,2 @@
 id;ssn;name
-4;384756473;Pooja Sharma
-2;123456789;Arjun Gautam
+2;123456789;Ram Sharma

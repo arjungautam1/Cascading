@@ -1,9 +1,4 @@
 id;ssn;name
-1;123456789;Arjun
-1;1234567;hari
-2;123456789;Arjun Gautam
-2;123456789;Arjun Gautam
-2;12345678;Arjun Gautam abc
-3;123;hari
-4;384756473;Pooja Sharma
-4;384756473;Pooja Kumari Sharma
+1;123456789;RamHari Prasad
+1;12345;Arjun Gautam
+2;123456789;Ram Sharma

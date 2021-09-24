@@ -36,7 +36,7 @@ public class Main {
         Pipe pipe=new Pipe("extract_longNameOnly");
         //filter out non 9 digit ssn using built in filter ExpressionFilter
         pipe =new Each(pipe, new Fields("ssn"),new ExpressionFilter("ssn.length()!=9",String.class));
-        pipe=new GroupBy(pipe,new Fields("ssn"),new Fields("name"),true);
+        pipe=new GroupBy(pipe,new Fields("ssn"),new Fields("name"),false);
 
         //taking first tuple via buffer
         pipe=new Every(pipe,new CustomBuffer(),Fields.REPLACE);
